@@ -1,0 +1,29 @@
+{
+  "n" : 8,
+  "m" : 7,
+  "sccs" : [ [ 0 ], [ 3, 2, 1 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ] ],
+  "scc_sizes" : [ 1, 3, 1, 1, 1, 1 ],
+  "condensation_nodes" : 6,
+  "condensation_edges" : 4,
+  "topo_components" : [ 0, 2, 1, 3, 4, 5 ],
+  "derived_tasks_order" : [ 0, 4, 3, 2, 1, 5, 6, 7 ],
+  "source_vertex" : 4,
+  "source_component" : 2,
+  "shortest_component_distances" : [ 2305843009213693951, 2305843009213693951, 0, 2, 7, 8 ],
+  "critical_path_components" : [ 2, 3, 4, 5 ],
+  "critical_path_vertices" : [ 4, 5, 6, 7 ],
+  "critical_path_length" : 8,
+  "metrics" : {
+    "topo_ns" : 7656300,
+    "scc_dfs_visits" : 8,
+    "dagsp_shortest_ns" : 8734900,
+    "kahn_pushes" : 4,
+    "dagsp_relaxations" : 3,
+    "scc_dfs_edges" : 7,
+    "dagsp_longest_ns" : 8753200,
+    "kahn_pops" : 6,
+    "scc_ns" : 8925000
+  },
+  "weight_model" : "edge",
+  "directed" : true
+}
